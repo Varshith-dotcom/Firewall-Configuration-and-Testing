@@ -1,0 +1,8 @@
+Allow HTTP:
+netsh advfirewall firewall add rule name="Allow HTTP" dir=in action=allow protocol=TCP localport=80
+
+Allow HTTPS:
+netsh advfirewall firewall add rule name="Allow HTTPS" dir=in action=allow protocol=TCP localport=443
+
+Block FTP:
+netsh advfirewall firewall add rule name="Block FTP" dir=in action=block protocol=TCP localport=21
