@@ -1,0 +1,7 @@
+blocked ports 
+
+Firewall rule 
+
+Port scan 
+
+Traffic logs 
